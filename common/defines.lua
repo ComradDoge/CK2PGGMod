@@ -1293,7 +1293,7 @@ NMilitary = {
 	FLANKING_DAMAGE_BONUS = 0.3,					-- Percentage bonus when flanking in combat
 	WAR_CONTRIBUTION_OCCUPATION_PER_DAY = 18,		-- Occupying a Holding gives this Contribution score per day 
 	WAR_CONTRIBUTION_PROVINCE_WITHOUT_SETTLEMENT_OCCUPATION_PER_DAY = 5, -- Occupying a province without settlements gives this score per day, multiplied with the number of empty holdings
-	NOMAD_PROVINCE_WAR_CONTRIBUTION_MULTIPLIER = 3,	-- War Contribution multiplier for occupied provinces without holdings from nomad holders
+	NOMAD_PROVINCE_WAR_CONTRIBUTION_MULTIPLIER = 2,	-- War Contribution multiplier for occupied provinces without holdings from nomad holders
 	WAR_CONTRIBUTION_BATTLE_PER_DAY = 0.14,			-- Every day in battle, a participant gets this. (My Troops / Total Friendly Troops) * Total Enemy Troops * WAR_CONTRIBUTION_BATTLE_PER_DAY. Max is [My Troops].
 	WAR_CONTRIBUTION_THEOCRACY_GHW_MULT = 0.25,	-- Holy Orders and other theocracies (notably the Pope) get less war contribution score during Great Holy Wars
 	LOW_DECADENCE_MORALE_MOD = 0.25,					-- Morale Defence Mod when at 0% decadence
@@ -1512,7 +1512,7 @@ NTechnology = {
 	DONT_EXECUTE_TECH_BEFORE = 769,				-- Set this to your earliest starting year
 	POINTS_PER_ATTRIBUTE = 0.04,
 
-	BASE_NEIGHBOUR_SPREAD_BONUS = 0.03, 		-- bonus for each neighbour with the tech
+	BASE_NEIGHBOUR_SPREAD_BONUS = 0.06, 		-- bonus for each neighbour with the tech
 	NEIGHBOUR_SAME_RELIGON_GROUP_MULT = 2.0, 	-- multiplier to the above bonus if neighbour is of your religious group
 	BASE_DEMESNE_SPREAD_BONUS = 0.06, 			-- bonus for each other province in demesne with the tech
 	MAX_DEMESNE_BONUS = 0.3, 					-- maximum bonus from demesne
@@ -1711,7 +1711,7 @@ NAI =
 	AI_SUPPORT_PARDON_BONUS = 60,							-- bonus to ai request support chance if seeking to get pardoned
 	DIVINE_BLOOD_INCEST_FACTOR = 1,							-- Multiplier factor used for close relatives when finding best spouse in religion with divine blood enabled. Smaller factor leads to close relatives less likely to be a choice.
 
-	STATECRAFT_THREAT_THRESHOLD = 50.0,						-- If threat from realm is greater or equal to threshold then Chancellor will be assigned to Statecraft job
+	STATECRAFT_THREAT_THRESHOLD = 45.0,						-- If threat from realm is greater or equal to threshold then Chancellor will be assigned to Statecraft job
 	ADMINISTER_REALM_REALM_SIZE_THRESHOLD = 200,			-- If Empire and realm size is greater or equal to threshold then Steward will be assigned to Administer Realm job
 	NOMAD_ORGANIZE_ARMY_THRESHOLD = 0.75,					-- If Nomad manpower growth from Train Warriors job is greater or equal to threshold then Marshal will be assigned to Organize Army job
 	

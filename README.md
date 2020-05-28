@@ -17,10 +17,10 @@ https://forum.paradoxplaza.com/forum/threads/mod-community-patch.1274314/
 
 ## NMilitary 
 
-**CRUSADE_MAX_POT_SHARE = 0.1, #D 0.2**
+CRUSADE_MAX_POT_SHARE = 0.1, #D 0.2
 It is not possible to receive more than this from the Crusade pot. If there's too few qualifying participants to distribute the full pot, any remainder goes to the Crusader King
 
-**WAR_CONTRIBUTION_OCCUPATION_PER_DAY = 18, #D 10**
+WAR_CONTRIBUTION_OCCUPATION_PER_DAY = 18, #D 10
 Occupying a Holding gives this Contribution score per day 
 
 WAR_CONTRIBUTION_BATTLE_PER_DAY = 0.14, #D 0.20

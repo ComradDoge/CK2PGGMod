@@ -1,0 +1,18 @@
+decisions = {
+	test_des = {
+		ai = no
+		potential = { ai = no }
+		allow = {
+			over_vassal_limit = -1
+			over_max_demesne_size = 1
+		}
+	}
+	test_des2 = {
+		ai = no
+		potential = { ai = no }
+		allow = {
+			over_vassal_limit = 1
+			over_max_demesne_size = -1
+		}
+	}
+}

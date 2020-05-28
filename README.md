@@ -11,7 +11,7 @@ and integration of the Community Patch (3.3.2.1) by LaTuer and other contributor
 https://forum.paradoxplaza.com/forum/threads/mod-community-patch.1274314/
 
 
-# 1.0 PGG defines.lua changes
+# PGG defines.lua changes
 
 "#D x" - means the original value
 

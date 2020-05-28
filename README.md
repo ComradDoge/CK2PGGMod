@@ -1,21 +1,25 @@
 # CK2PGGMod
 
+**Not Ironman Compatible**
+**Checksum in 3.3.3 - BEBS **
+
 Main focus is changes in defines.lua values (PGG locally sourced)
 and integration of the Community Patch (3.3.2.1) by LaTuer and other contributors
 
-Community Patch forum link
+**Community Patch forum link**
 https://forum.paradoxplaza.com/forum/threads/mod-community-patch.1274314/
 
 
-PGG defines.lua changes
-#D x - means the original value
+# PGG defines.lua changes
 
-# NMilitary #
+"#D x" - means the original value
 
-CRUSADE_MAX_POT_SHARE = 0.1, #D 0.2
+## NMilitary 
+
+**CRUSADE_MAX_POT_SHARE = 0.1, #D 0.2**
 It is not possible to receive more than this from the Crusade pot. If there's too few qualifying participants to distribute the full pot, any remainder goes to the Crusader King
 
-WAR_CONTRIBUTION_OCCUPATION_PER_DAY = 18, #D 10
+**WAR_CONTRIBUTION_OCCUPATION_PER_DAY = 18, #D 10**
 Occupying a Holding gives this Contribution score per day 
 
 WAR_CONTRIBUTION_BATTLE_PER_DAY = 0.14, #D 0.20
@@ -36,12 +40,12 @@ Warscore worth for occupied private demesne
 ARMY_MOVEMENT_SPEED = 5, #D 3
 Base movement speed of land units
 
-# NTechnology #
+## NTechnology 
 
 BASE_NEIGHBOUR_SPREAD_BONUS = 0.06, #D 0.03
 Bonus for each neighbour with the tech
 
-# NAI #
+## NAI #
 STATECRAFT_THREAT_THRESHOLD = 45.0, #D 50
 If threat from realm is greater or equal to threshold then Chancellor will be assigned to Statecraft job
 

@@ -1,7 +1,7 @@
 # CK2PGGMod
 
 **Not Ironman Compatible**
-**Checksum in 3.3.3 - BEBS **
+**Checksum in 3.3.3 - BEBS**
 
 Main focus is changes in defines.lua values (PGG locally sourced)
 and integration of the Community Patch (3.3.2.1) by LaTuer and other contributors

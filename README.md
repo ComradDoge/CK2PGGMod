@@ -5,7 +5,7 @@
 **Checksum in 3.3.3 - BEBS**
 
 Main focus is changes in defines.lua values (PGG locally sourced)
-and integration of the Community Patch (3.3.2.1) by LaTuer and other contributors
+and integration of the Community Patch (3.3.2.1) by LaTuer and other contributors. In the launcher it will be called .CK2 PGG Mod (at the top)
 
 **Community Patch forum link**
 https://forum.paradoxplaza.com/forum/threads/mod-community-patch.1274314/

@@ -15,7 +15,7 @@ https://forum.paradoxplaza.com/forum/threads/mod-community-patch.1274314/
 **MTR - Medieval Trade Routes 4 Vanilla v2.22** 
 https://www.moddb.com/mods/mtr-medieval-trade-routes-4-vanilla/downloads/mtr-4-vanilla
 
-# 1.0 PGG defines.lua changes
+#PGG defines.lua changes
 
 "#D x" - means the original value
 

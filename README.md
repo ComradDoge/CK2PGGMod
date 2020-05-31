@@ -60,3 +60,4 @@ Bonus for each neighbour with the tech
 STATECRAFT_THREAT_THRESHOLD = 45.0, #D 50
 If threat from realm is greater or equal to threshold then Chancellor will be assigned to Statecraft job
 
+Test

@@ -1,0 +1,65 @@
+andalusian_route = {	# Iberian Peninsula
+
+	
+	wealth = 35.0			# Total base wealth of trade route
+	
+	trade_post_display_trigger = {
+		OR = {
+		
+			province_id = 157	# Santiago
+			province_id	= 152	# Navarra
+			province_id = 206	# Huesca
+			province_id = 173	# Tarragona
+			province_id = 202	# Zaragoza
+			province_id = 199	# Burgos
+			province_id = 1977	# Segovia
+			province_id = 197	# Toledo
+			province_id = 171	# Valencia
+			province_id = 827	# Palma
+			province_id = 168	# Almeria
+			province_id	= 180	# Granada
+			province_id = 167	# Malaga
+			province_id = 181	# Cordoba
+			province_id = 182	# Sevilla
+			province_id = 160	# Lisboa
+			
+		}
+	}
+
+	modifier = {	# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.05
+		city_tax_modifier = 0.07
+		temple_tax_modifier = 0.06
+		tribal_tax_modifier = 0.10
+		trade_route_value = 7.25
+		local_movement_speed = 0.07
+		tech_growth_modifier = 0.05
+		icon = 6
+		}
+
+	start = {	
+			839 168 827				# Start of trade route
+		}
+
+
+	### Inland route
+	path = { 839 166 }
+	path = { 166 167 180 }
+	path = { 168 180 }
+	path = { 180 181 }
+	path = { 166 182 181 }
+	path = { 181 196 197 }
+	path = { 197 1978 200 1977 199 }
+	path = { 197 194 193 186 160 }
+	path = { 199 201 152 }
+	path = { 199 1975 191 188 158 157 156 155 154 153 152 }
+	path = { 152 202 }
+	path = { 202 206 205 }
+	path = { 205 211 212 }
+	path = { 173 174 202 }
+	path = { 173 204 205 }
+
+			
+	###Coastal/Inland route
+	path = { 827 1022 1021 171 172 173 }
+}

@@ -1503,8 +1503,8 @@ NMilitary = {
 	CRUSADE_MINIMUM_CONTRIBUTION = 1000,					-- Participants who have contributed less than this to the war (via sieges, battles, etc., see the in-game war UI) do not receive anything from the Crusade pot
 	CRUSADE_MAX_POT_SHARE = 0.1,							-- It is not possible to receive more than this from the Crusade pot. If there's too few qualifying participants to distribute the full pot, any remainder goes to the Crusader King
 	CRUSADER_KING_POT_SHARE = 0.1,							-- The Crusader King gets this portion of the pot, plus any remainder
-	CRUSADER_KING_ARTIFACTS = 2,							-- The Crusader King gets this many artifacts
-	CRUSADERS_GET_EXTRA_ARTIFACTS = 2,						-- The top <NUM> participants get one extra artifact each
+	CRUSADER_KING_ARTIFACTS = 3,							-- The Crusader King gets this many artifacts
+	CRUSADERS_GET_EXTRA_ARTIFACTS = 5,						-- The top <NUM> participants get one extra artifact each
 	FORT_LEVEL_ASSAULT_THRESHOLD = 6						-- The besieging army cannot assault a Holding with a Fort level above this number (unless the Siege Assault Game Rule is 'unlimited')
 },
 

@@ -1,0 +1,54 @@
+british_route = {	# British Isles
+
+	
+	wealth = 30.0			# Total base wealth of trade route
+	
+	trade_post_display_trigger = {
+		OR = {
+			
+			province_id = 11	# Dublin
+			province_id = 15	# Cork
+			province_id = 41	# Aberdeen
+			province_id = 32	# Middlesex
+			province_id = 61	# Lincoln
+			province_id = 57	# York
+			province_id = 52	# Northumberland
+			province_id = 48	# Lothian
+			province_id = 43	# Gowrie
+			province_id = 26	# Winchester
+		}
+	}
+
+	modifier = {	# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.06
+		city_tax_modifier = 0.06
+		temple_tax_modifier = 0.02
+		tribal_tax_modifier = 0.30
+		trade_route_value = 4.4
+		local_movement_speed = 0.08
+		tech_growth_modifier = 0.04
+		icon = 6
+		}
+
+	start = {	
+				11 15 41		# Start of trade route
+		}
+
+
+	### Inland route
+	path = { 41 43 42 48 51 52 56 57 1941 61 68	}
+	path = { 30 67 68 }
+	path = { 68 69 32 }
+	path = { 28 27 26 25 73 }
+	path = { 28 29 }
+	path = { 21 1944 28 }
+	path = { 21 30 }
+	path = { 30 66 59 }
+	path = { 32 73 }
+	path = { 11 16 }
+	path = { 15 12 16 }
+	
+	### Coastal route
+	path = { 16 968 21 }
+	path = { 73 965 74 }
+}

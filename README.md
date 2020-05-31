@@ -5,11 +5,15 @@
 **Checksum in 3.3.3 - BEBS**
 
 Main focus is changes in defines.lua values (PGG locally sourced)
-and integration of the Community Patch (3.3.2.1) by LaTuer and other contributors. In the launcher it will be called .CK2 PGG Mod (at the top)
+and integration of the Community Patch (3.3.2.1) by LaTuer and other contributors. In the launcher it will be called .CK2 PGG Mod (at the top).
+
+In v2 MTR was integrated
 
 **Community Patch forum link**
 https://forum.paradoxplaza.com/forum/threads/mod-community-patch.1274314/
 
+**MTR - Medieval Trade Routes 4 Vanilla v2.22** 
+https://www.moddb.com/mods/mtr-medieval-trade-routes-4-vanilla/downloads/mtr-4-vanilla
 
 # 1.0 PGG defines.lua changes
 
@@ -40,6 +44,12 @@ Warscore worth for occupied private demesne
 
 ARMY_MOVEMENT_SPEED = 5, #D 3
 Base movement speed of land units
+
+CRUSADER_KING_ARTIFACTS = 3 #D 2
+The Crusader King gets this many artifacts
+
+CRUSADERS_GET_EXTRA_ARTIFACTS = 5 #D 2
+The top <NUM> participants get one extra artifact each
 
 ## NTechnology 
 
